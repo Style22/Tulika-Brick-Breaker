@@ -13,7 +13,7 @@ Game::Game()
 
     ball = Ball(&fullTexture);
     //ball.position = sf::Vector2f(392, 308);
-    ball.position = sf::Vector2f(400, 300);
+    ball.position = sf::Vector2f(500, 300);
     ball.paddle = &paddle;
     ball.gameState = &gameState;
 }
